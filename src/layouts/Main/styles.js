@@ -39,6 +39,9 @@ const styles = {
   root: {
     position: "absolute",
     height: "100vh",
+    [`@media screen and (max-width: ${breakpoints.desktop})`]: {
+      width: '100%',
+    },
     width: `calc(100% - ${widths.leftBar}px)`,
     padding: 0,
     margin: 0,

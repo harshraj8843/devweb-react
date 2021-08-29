@@ -2,14 +2,12 @@ import { bgDarkBlue, textMid, sansFont, heights } from "../../theme";
 
 const styles = {
   root: {
-    // alignItems: 'center',
     display: "flex",
     flexDirection: "column",
     width: "100%",
     height: `calc(100vh - ${heights.navBar + heights.statusBar}px)`,
-    // justifyContent: 'center',
     fontFamily: sansFont,
-    // margin: '10px'
+    overflow: 'hidden',
   },
   mdtext: {
     color: textMid,
