@@ -42,7 +42,7 @@ const Project = ({ repoData, api_domain }) => {
               <img
                 style={{ margin: "5px", height: "140px", width: "400px" }}
                 alt={`${data.name}`}
-                src={`${api_domain}/api/pin?username=${data.owner.login}&repo=${data.name}`}
+                src={`${api_domain}/api/pin?username=${data.owner.login}&repo=${data.name}&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515`}
               />
             </a>
           ))}
