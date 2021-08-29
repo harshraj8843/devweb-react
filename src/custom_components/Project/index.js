@@ -31,7 +31,7 @@ const Project = ({ repoData, api_domain }) => {
     <>
       <SEO title={hello} />
       <section className={classes.root}>
-        <p align="center" style={{ paddingBottom: "50px" }}>
+        <p align="center" style={{ paddingBottom: "50px", overflowY: 'scroll' }}>
           {repoData.map((data) => (
             <a
               key={data.id}
