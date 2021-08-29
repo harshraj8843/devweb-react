@@ -1,0 +1,32 @@
+[
+  {
+    "name": "GitHub",
+    "url": "https://github.com/harshraj8843",
+    "icon": ["fab", "github"],
+    "isMain": false
+  },
+  {
+    "name": "Twitter",
+    "url": "https://twitter.com/harshraj8843",
+    "icon": ["fab", "twitter"],
+    "isMain": true
+  },
+  {
+    "name": "Instagram",
+    "url": "https://www.instagram.com/harshraj_8843/",
+    "icon": ["fab", "instagram"],
+    "isMain": false
+  },
+  {
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/in/harshraj8843/",
+    "icon": ["fab", "linkedin"],
+    "isMain": false
+  },
+  {
+    "name": "Youtube",
+    "url": "https://www.youtube.com/channel/UCB6WeAJokcwUt3lRWXscbmQ",
+    "icon": ["fab", "youtube"],
+    "isMain": false
+  }
+]
