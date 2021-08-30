@@ -1,4 +1,4 @@
-import { bgDarkBlue, textMid, sansFont, heights } from "../../theme";
+import { bgDarkBlue, textMid, sansFont, heights, breakpoints } from "../../theme";
 
 const styles = {
   root: {
@@ -7,7 +7,7 @@ const styles = {
     width: "100%",
     height: `calc(100vh - ${heights.navBar + heights.statusBar}px)`,
     fontFamily: sansFont,
-    overflow: 'hidden',
+    overflow: "hidden",
   },
   mdtext: {
     color: textMid,
@@ -16,6 +16,14 @@ const styles = {
     padding: "0",
     textShadow: `5px 5px ${bgDarkBlue}`,
     userSelect: "none",
+  },
+  repocard: {
+    margin: "5px",
+    height: "140px",
+    width: "400px",
+    [`@media screen and (max-width: ${breakpoints.desktop})`]: {
+      width: "340px",
+    },
   },
 };
 
