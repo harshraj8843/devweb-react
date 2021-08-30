@@ -9,7 +9,7 @@
     "name": "Twitter",
     "url": "https://twitter.com/harshraj8843",
     "icon": ["fab", "twitter"],
-    "isMain": true
+    "isMain": false
   },
   {
     "name": "Instagram",
@@ -22,6 +22,12 @@
     "url": "https://www.linkedin.com/in/harshraj8843/",
     "icon": ["fab", "linkedin"],
     "isMain": false
+  },
+  {
+    "name": "Discord",
+    "url": "https://discord.gg/TVpWd8Gmp2",
+    "icon": ["fab", "discord"],
+    "isMain": true
   },
   {
     "name": "Youtube",
