@@ -1,6 +1,8 @@
-### Some of the project ideas
+## Some of the project ideas
 
-#### HTML Generator ( in development )
+### Active
+
+#### HTML Generator (in development)
 
 - Using - `HTML`, `CSS`, `Javascript`, `Bootstrap`
 
@@ -19,4 +21,8 @@
   - MARK_1 (prototype) done
   - working on MARK_2 (full version)
 
-#### VS Code themed web app ( in development )
+### Done
+
+#### VS Code themed web app
+
+- [https://github.com/harshraj8843/devweb-react](https://github.com/harshraj8843/devweb-react)
