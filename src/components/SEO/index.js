@@ -77,10 +77,6 @@ const SEO = ({ title, description, lang = "en", meta = [] }) => {
           name: `twitter:image`,
           content: metadata.image,
         },
-        {
-          name: `google-site-verification`,
-          content: metadata.verification.google,
-        },
       ].concat(meta)}
     />
   );
