@@ -16,4 +16,6 @@
     - Framework
       - React
       - Gatsby
+
 - Firebase
+- Git
