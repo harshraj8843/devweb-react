@@ -6,7 +6,6 @@
     "type": "git",
     "url": "https://github.com/harshraj8843/devweb-react"
   },
-  "homepage": "https://raj-harsh.web.app/",
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
