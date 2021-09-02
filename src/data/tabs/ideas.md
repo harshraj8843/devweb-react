@@ -23,6 +23,10 @@
 
 ### Done
 
-#### VS Code themed web app
+- **VS Code themed web app**
 
-- [https://github.com/harshraj8843/devweb-react](https://github.com/harshraj8843/devweb-react)
+  - [https://github.com/harshraj8843/devweb-react](https://github.com/harshraj8843/devweb-react)
+
+### TO DO
+
+- **Github Profile README Generator**
