@@ -10,7 +10,7 @@ import styles from "./styles";
 
 const useStyles = createUseStyles(styles);
 
-const Greeter = ({ staticData, contactData, repoUrl }) => {
+const Home = ({ staticData, contactData, repoUrl }) => {
   const classes = useStyles();
 
   useEffect(() => {
@@ -47,4 +47,4 @@ const Greeter = ({ staticData, contactData, repoUrl }) => {
   );
 };
 
-export default Greeter;
+export default Home;
