@@ -2,6 +2,10 @@
 
 ### Active
 
+#### VS Code themed web app
+
+  - [https://github.com/harshraj8843/devweb-react](https://github.com/harshraj8843/devweb-react)
+
 #### HTML Generator (in development)
 
 - Using - `HTML`, `CSS`, `Javascript`, `Bootstrap`
@@ -20,12 +24,6 @@
 - Update
   - MARK_1 (prototype) done
   - working on MARK_2 (full version)
-
-### Done
-
-- **VS Code themed web app**
-
-  - [https://github.com/harshraj8843/devweb-react](https://github.com/harshraj8843/devweb-react)
 
 ### TO DO
 
