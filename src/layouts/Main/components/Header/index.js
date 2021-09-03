@@ -6,12 +6,12 @@ import styles from './styles';
 
 const useStyles = createUseStyles(styles);
 
-const Header = ({ tabs, custom_components }) => {
+const Header = ({ tabs, custom_header }) => {
   const classes = useStyles();
 
   return (
     <header className={classes.root}>
-      <NavBar tabs={tabs} custom_components={custom_components} />
+      <NavBar tabs={tabs} custom_header={custom_header} />
     </header>
   );
 };

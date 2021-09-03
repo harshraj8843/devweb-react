@@ -10,7 +10,7 @@ import styles from "./styles";
 
 const useStyles = createUseStyles(styles);
 
-const MainLayout = ({ children, tabs, custom_components, contactData }) => {
+const MainLayout = ({ children, tabs, custom_header, contactData }) => {
   // eslint-disable-next-line
   const [explorerOpen, setExplorerOpen] = useState(false);
 
@@ -24,7 +24,7 @@ const MainLayout = ({ children, tabs, custom_components, contactData }) => {
           [classes.explorerOpen]: explorerOpen,
         })}
       >
-        <Header tabs={tabs} custom_components={custom_components} />
+        <Header tabs={tabs} custom_header={custom_header} />
         {children}
       </main>
       <StatusBar />

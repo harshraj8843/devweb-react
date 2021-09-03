@@ -6,7 +6,7 @@ import styles from './styles';
 
 const useStyles = createUseStyles(styles);
 
-const Navbar = ({ tabs, custom_components }) => {
+const Navbar = ({ tabs, custom_header }) => {
   const classes = useStyles();
 
   return (
@@ -17,7 +17,7 @@ const Navbar = ({ tabs, custom_components }) => {
             <NavItem {...tab} />
           </li>
         ))}
-        {custom_components.map((tab) => (
+        {custom_header.map((tab) => (
           <li className={classes.listItem} key={tab.name}>
             <NavItem {...tab} />
           </li>
