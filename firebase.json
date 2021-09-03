@@ -10,14 +10,6 @@
       {
         "source": "**",
         "destination": "/index.html"
-      },
-      {
-        "source": "/images/logo512.png",
-        "destination": "/logo512.png"
-      },
-      {
-        "source": "/robots.txt",
-        "destination": "/robots.txt"
       }
     ]
   }
