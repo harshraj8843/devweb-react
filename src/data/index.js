@@ -15,7 +15,7 @@ import pkg from "../../package.json";
 export const pages = [
   {
     name: "Home",
-    url: "/",
+    url: "/home",
     icon: "home",
     isInternal: true,
     component: (

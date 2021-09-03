@@ -106,7 +106,7 @@ function App() {
           ))}
 
           {/* default route */}
-          <Redirect key="notfound" from="*" to="/" default noThrow />
+          <Redirect key="notfound" from="*" to="/home" default noThrow />
         </Switch>
       </MainLayout>
     </Router>
