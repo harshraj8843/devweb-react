@@ -13,22 +13,15 @@ import MainLayout from "./layouts/Main";
 
 // json data
 import contactData from "./data/json/contact.json";
-import staticData from "./data/json/static.json";
 
 // components data
-import { pages, tabs, custom_components } from "./data/";
+import { pages, tabs, custom_header } from "./data/";
 
 // markdown component
 import MDTab from "./components/MDTab";
 
-// greeter component (homepage)
-import Greeter from "./views/Greeter";
-
-// package.json
-import pkg from "../package.json";
-
-// project component (custom component)
-import Project from "./custom_components/Project";
+// project component
+import Project from "./views/Project";
 
 // axios (for api call)
 import axios from "axios";
@@ -40,6 +33,9 @@ function App() {
   // github-readme-stats domain
   // default => https://github-readme-stats.vercel.app
   const [api_domain] = React.useState("https://harshraj8843.vercel.app");
+
+  // github username
+  const [gh_username] = React.useState('harshraj8843');
 
   // useEffect for api call
   React.useState(() => {
@@ -53,7 +49,7 @@ function App() {
         "Authorization"
       ] = `token ${process.env.REACT_APP_GITHUB_TOKEN}`;
       axios
-        .get("https://api.github.com/users/harshraj8843/repos")
+        .get(`https://api.github.com/users/${gh_username}/repos`)
         .then((response) => {
           console.log("axios called");
 
@@ -86,7 +82,7 @@ function App() {
     <Router>
       <MainLayout
         tabs={tabs}
-        custom_components={custom_components}
+        custom_header={custom_header}
         contactData={contactData}
       >
         <Switch>
@@ -103,18 +99,14 @@ function App() {
           ))}
 
           {/* pages route */}
-          {pages.map(({ name, url, ...rest }) => (
+          {pages.map(({ name, url, component, ...rest }) => (
             <Route key={name} path={url}>
-              <Greeter
-                staticData={staticData}
-                contactData={contactData}
-                repoUrl={pkg.repository.url}
-              />
+              <>{component}</>
             </Route>
           ))}
 
           {/* default route */}
-          <Redirect key="notfound" from="*" to="/" default noThrow />
+          <Redirect key="notfound" from="*" to="/home" default noThrow />
         </Switch>
       </MainLayout>
     </Router>

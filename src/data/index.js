@@ -1,13 +1,38 @@
 // icon colors
 import { jsOrange, red, green } from "../theme/colors";
 
+// components to pass in pages
+import Home from "../views/Home";
+import Git from "../views/Git";
+
+// json data
+import contactData from "./json/contact.json";
+import staticData from "./json/static.json";
+
+// package.json
+import pkg from "../../package.json";
+
 // sidenav main icons
 export const pages = [
   {
     name: "Home",
-    url: "/",
+    url: "/home",
     icon: "home",
     isInternal: true,
+    component: (
+      <Home
+        staticData={staticData}
+        contactData={contactData}
+        repoUrl={pkg.repository.url}
+      />
+    ),
+  },
+  {
+    name: "harshraj8843/devweb-react",
+    url: "/git",
+    icon: "code-branch",
+    isInternal: true,
+    component: <Git filename={"git"} />,
   },
 ];
 
@@ -29,8 +54,8 @@ export const tabs = [
   }
 ];
 
-// custom component header tab
-export const custom_components = [
+// custom header tab
+export const custom_header = [
   {
     name: "projects.py",
     url: "/projects",
