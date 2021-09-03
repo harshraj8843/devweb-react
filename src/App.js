@@ -13,22 +13,15 @@ import MainLayout from "./layouts/Main";
 
 // json data
 import contactData from "./data/json/contact.json";
-import staticData from "./data/json/static.json";
 
 // components data
-import { pages, tabs, custom_components } from "./data/";
+import { pages, tabs, custom_header } from "./data/";
 
 // markdown component
 import MDTab from "./components/MDTab";
 
-// greeter component (homepage)
-import Greeter from "./views/Greeter";
-
-// package.json
-import pkg from "../package.json";
-
-// project component (custom component)
-import Project from "./custom_components/Project";
+// project component
+import Project from "./views/Project";
 
 // axios (for api call)
 import axios from "axios";
@@ -89,7 +82,7 @@ function App() {
     <Router>
       <MainLayout
         tabs={tabs}
-        custom_components={custom_components}
+        custom_header={custom_header}
         contactData={contactData}
       >
         <Switch>
@@ -106,13 +99,9 @@ function App() {
           ))}
 
           {/* pages route */}
-          {pages.map(({ name, url, ...rest }) => (
+          {pages.map(({ name, url, component, ...rest }) => (
             <Route key={name} path={url}>
-              <Greeter
-                staticData={staticData}
-                contactData={contactData}
-                repoUrl={pkg.repository.url}
-              />
+              <>{component}</>
             </Route>
           ))}
 

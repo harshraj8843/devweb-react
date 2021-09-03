@@ -1,6 +1,16 @@
 // icon colors
 import { jsOrange, red, green } from "../theme/colors";
 
+// components to pass
+import Home from "../views/Home";
+
+// json data
+import contactData from "./json/contact.json";
+import staticData from "./json/static.json";
+
+// package.json
+import pkg from "../../package.json";
+
 // sidenav main icons
 export const pages = [
   {
@@ -8,6 +18,13 @@ export const pages = [
     url: "/",
     icon: "home",
     isInternal: true,
+    component: (
+      <Home
+        staticData={staticData}
+        contactData={contactData}
+        repoUrl={pkg.repository.url}
+      />
+    ),
   },
 ];
 
@@ -29,8 +46,8 @@ export const tabs = [
   }
 ];
 
-// custom component header tab
-export const custom_components = [
+// custom header tab
+export const custom_header = [
   {
     name: "projects.py",
     url: "/projects",
