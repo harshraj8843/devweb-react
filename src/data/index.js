@@ -1,8 +1,9 @@
 // icon colors
 import { jsOrange, red, green } from "../theme/colors";
 
-// components to pass
+// components to pass in pages
 import Home from "../views/Home";
+import Git from "../views/Git";
 
 // json data
 import contactData from "./json/contact.json";
@@ -25,6 +26,13 @@ export const pages = [
         repoUrl={pkg.repository.url}
       />
     ),
+  },
+  {
+    name: "harshraj8843/devweb-react",
+    url: "/git",
+    icon: "code-branch",
+    isInternal: true,
+    component: <Git filename={"git"} />,
   },
 ];
 
