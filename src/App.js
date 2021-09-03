@@ -41,6 +41,9 @@ function App() {
   // default => https://github-readme-stats.vercel.app
   const [api_domain] = React.useState("https://harshraj8843.vercel.app");
 
+  // github username
+  const [gh_username] = React.useState('harshraj8843');
+
   // useEffect for api call
   React.useState(() => {
     // eslint-disable-next-line
@@ -53,7 +56,7 @@ function App() {
         "Authorization"
       ] = `token ${process.env.REACT_APP_GITHUB_TOKEN}`;
       axios
-        .get("https://api.github.com/users/harshraj8843/repos")
+        .get(`https://api.github.com/users/${gh_username}/repos`)
         .then((response) => {
           console.log("axios called");
 
