@@ -20,7 +20,7 @@ const LeftBar = ({ contactData }) => {
 
   const bottom = [
     {
-      name: 'Useless button!',
+      name: 'settings',
       url: '',
       icon: 'cog',
       isInternal: true,

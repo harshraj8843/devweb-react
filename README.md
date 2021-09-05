@@ -55,3 +55,4 @@ A VS Code themed Web App.
 - [React Js](https://reactjs.org/)
 - [Typed Js](https://mattboldt.com/demos/typed-js/)
 - [github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
+- [shiels.io](https://github.com/badges/shields)

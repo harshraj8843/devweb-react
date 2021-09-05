@@ -12,12 +12,6 @@
     "isMain": false
   },
   {
-    "name": "Instagram",
-    "url": "https://www.instagram.com/harshraj_8843/",
-    "icon": ["fab", "instagram"],
-    "isMain": false
-  },
-  {
     "name": "LinkedIn",
     "url": "https://www.linkedin.com/in/harshraj8843/",
     "icon": ["fab", "linkedin"],
