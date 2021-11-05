@@ -32,10 +32,10 @@ function App() {
 
   // github-readme-stats domain
   // default => https://github-readme-stats.vercel.app
-  const [api_domain] = React.useState("https://harshraj8843.vercel.app");
+  const [api_domain] = React.useState("https://github-readme-stats.vercel.app");
 
   // github username
-  const [gh_username] = React.useState('harshraj8843');
+  const [gh_username] = React.useState('novicexp');
 
   // useEffect for api call
   React.useState(() => {

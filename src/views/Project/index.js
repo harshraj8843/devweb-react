@@ -20,7 +20,7 @@ const Project = ({ repoData, api_domain }) => {
   //     console.log(repoData[i].owner.login);
   //     setProjects(
   //       (prevState) =>
-  //         `${prevState} [![Project Card](https://harshraj8843.vercel.app/api/pin/?username=${repoData[i].owner.login}&repo=${repoData[i].name})](${repoData[i].html_url})`
+  //         `${prevState} [![Project Card](https://github-readme-stats.vercel.app/api/pin/?username=${repoData[i].owner.login}&repo=${repoData[i].name})](${repoData[i].html_url})`
   //     );
   //   }
   // }, [repoData]);

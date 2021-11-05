@@ -28,7 +28,7 @@ export const pages = [
     ),
   },
   {
-    name: "harshraj8843/devweb-react",
+    name: "novicexp/devweb-react",
     url: "/git",
     icon: "code-branch",
     isInternal: true,
@@ -44,13 +44,6 @@ export const tabs = [
     icon: ["fab", "js"],
     color: jsOrange,
     mdFileName: "skills",
-  },
-  {
-    name: "ideas.java",
-    url: "/ideas",
-    icon: ["fab", "java"],
-    color: red,
-    mdFileName: "ideas",
   }
 ];
 
