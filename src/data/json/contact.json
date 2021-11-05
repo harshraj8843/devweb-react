@@ -1,32 +1,14 @@
 [
   {
     "name": "GitHub",
-    "url": "https://github.com/harshraj8843",
+    "url": "https://github.com/novicexp",
     "icon": ["fab", "github"],
     "isMain": false
   },
   {
     "name": "Twitter",
-    "url": "https://twitter.com/harshraj8843",
+    "url": "https://twitter.com/novice_xp",
     "icon": ["fab", "twitter"],
-    "isMain": false
-  },
-  {
-    "name": "LinkedIn",
-    "url": "https://www.linkedin.com/in/harshraj8843/",
-    "icon": ["fab", "linkedin"],
-    "isMain": false
-  },
-  {
-    "name": "Discord",
-    "url": "https://discord.gg/TVpWd8Gmp2",
-    "icon": ["fab", "discord"],
     "isMain": true
-  },
-  {
-    "name": "Youtube",
-    "url": "https://www.youtube.com/channel/UCB6WeAJokcwUt3lRWXscbmQ",
-    "icon": ["fab", "youtube"],
-    "isMain": false
   }
 ]

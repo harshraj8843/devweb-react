@@ -4,9 +4,7 @@
 
 <div align="center">
 
-[![Demo](https://img.shields.io/badge/Demo-LIVE-blue)](https://raj-harsh.web.app/)
-
-[![License](https://img.shields.io/github/license/harshraj8843/devweb-react)](https://github.com/harshraj8843/devweb-react/blob/master/LICENSE.md) ![Github Repo Size](https://img.shields.io/github/repo-size/harshraj8843/devweb-react) [![Github Contributors](https://img.shields.io/github/contributors/harshraj8843/devweb-react)](https://github.com/harshraj8843/devweb-react/graphs/contributors) [![Github Last Commit](https://img.shields.io/github/last-commit/harshraj8843/devweb-react)](https://github.com/harshraj8843/devweb-react/graphs/commit-activity)
+[![License](https://img.shields.io/github/license/novicexp/devweb-react)](https://github.com/novicexp/devweb-react/blob/master/LICENSE.md) ![Github Repo Size](https://img.shields.io/github/repo-size/novicexp/devweb-react) [![Github Contributors](https://img.shields.io/github/contributors/novicexp/devweb-react)](https://github.com/novicexp/devweb-react/graphs/contributors) [![Github Last Commit](https://img.shields.io/github/last-commit/novicexp/devweb-react)](https://github.com/novicexp/devweb-react/graphs/commit-activity)
 
 </div>
 
@@ -30,7 +28,7 @@ A VS Code themed Web App.
 
 - clone project
   ```
-  git clone https://github.com/harshraj8843/devweb-react
+  git clone https://github.com/novicexp/devweb-react
   ```
   ```
   cd devweb-react/

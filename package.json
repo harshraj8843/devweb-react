@@ -4,10 +4,10 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/harshraj8843/devweb-react"
+    "url": "https://github.com/novicexp/devweb-react"
   },
   "license": "MIT",
-  "homepage": "https://raj-harsh.web.app/",
+  "homepage": "https://novice-xp.web.app/devweb-react",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
