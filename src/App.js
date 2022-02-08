@@ -79,7 +79,7 @@ function App() {
   });
 
   return (
-    <Router>
+    <Router basename="/devweb-react" >
       <MainLayout
         tabs={tabs}
         custom_header={custom_header}
