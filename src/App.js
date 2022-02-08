@@ -35,7 +35,7 @@ function App() {
   const [api_domain] = React.useState("https://github-readme-stats.vercel.app");
 
   // github username
-  const [gh_username] = React.useState('novicexp');
+  const [gh_username] = React.useState('harshraj8843');
 
   // useEffect for api call
   React.useState(() => {
@@ -45,9 +45,9 @@ function App() {
     // function
     const getData = () => {
       // github api call (with authentication header)
-      axios.defaults.headers.common[
-        "Authorization"
-      ] = `token ${process.env.REACT_APP_GITHUB_TOKEN}`;
+      // axios.defaults.headers.common[
+      //   "Authorization"
+      // ] = `token ${process.env.REACT_APP_GITHUB_TOKEN}`;
       axios
         .get(`https://api.github.com/users/${gh_username}/repos`)
         .then((response) => {

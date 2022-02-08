@@ -28,7 +28,7 @@ export const pages = [
     ),
   },
   {
-    name: "novicexp/devweb-react",
+    name: "harshraj8843/devweb-react",
     url: "/git",
     icon: "code-branch",
     isInternal: true,
