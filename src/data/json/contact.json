@@ -1,13 +1,13 @@
 [
   {
     "name": "GitHub",
-    "url": "https://github.com/novicexp",
+    "url": "https://github.com/harshraj8843",
     "icon": ["fab", "github"],
     "isMain": false
   },
   {
     "name": "Twitter",
-    "url": "https://twitter.com/novice_xp",
+    "url": "https://twitter.com/harshraj8843",
     "icon": ["fab", "twitter"],
     "isMain": true
   }
